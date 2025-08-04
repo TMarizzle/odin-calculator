@@ -1,3 +1,37 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.calculator{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    height: 400px;
+    width: 350px;
+}
+
+.display {
+    height: 2%;
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.operations {
+    margin: 10px;
+    border: 1px solid green;
+    justify-content: space-between;
+    width: 75%;
+    height: 6%;
+}
+
+.totalClear {
+    border: 1px solid pink;
+    justify-content: space-around;
+    height: 5%;
+}
